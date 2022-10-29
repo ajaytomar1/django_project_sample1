@@ -12,7 +12,7 @@ SECRET_KEY = 'n3$*ph11c*8b$6dira-=3u10c&dxvzrh7mcrq_yn15i67hydza'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['thetestingapp1.herokuapp.com']
 
 # Application definition
 
@@ -107,6 +107,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root/')
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_root/')
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+# ]
